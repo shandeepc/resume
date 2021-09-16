@@ -17,6 +17,8 @@
 @page {
   size: A4;
 }
+
+
 body {
   -webkit-print-color-adjust: exact;
           color-adjust: exact;
@@ -29,7 +31,13 @@ body {
 
 #line{
   position: absolute;
-  background-color: #5695cd;;
+  background-color: #10AD9B;
+}
+
+#divider{
+  position: absolute;
+  background-color: #10AD9B;
+  border-radius: 99px;
 }
 
 .btn-print {
@@ -56,6 +64,7 @@ body {
   font-weight: 600;
   line-height: 1;
   margin-bottom: 0;
+  color: rgb(71, 71, 71);
 }
 .resume p {
   margin-bottom: 1em;
@@ -88,9 +97,9 @@ body {
 .resume .resume__section-title > i {
   margin-right: 0.63em;
   font-size: 1.14em;
-  background-color: #5695cd;
+  background-color: #10AD9B;
   color: #fff;
-  border: 0.25em solid #aacae6;
+  border: 0.25em solid #aae6cf;
   border-radius: 50%;
   width: 2.51em;
   height: 2.51em;
@@ -122,7 +131,7 @@ body {
 }
 .resume .info-item {
   margin-bottom: 0.2em;
-  margin-left: 42em;
+  margin-left: 0.2em;
   font-weight: 300;
 }
 .resume .info-item:last-child {
@@ -136,7 +145,7 @@ body {
   text-align: center;
 }
 .resume .info-label i {
-  color: #5695cd;
+  color: #10AD9B;
 }
 .resume .xp-item {
   margin-bottom: 4em;
@@ -160,7 +169,7 @@ body {
   font-size: 0.8em;
   margin-top: 0.3em;
   margin-bottom: 1em;
-  color: #5695cd;
+  color: #10AD9B;
 }
 .resume .extra {
   margin-bottom: 2em;
@@ -185,7 +194,7 @@ body {
   position: relative;
 }
 .resume .extra-details__progress {
-  background-color: #5695cd;
+  background-color: #10AD9B;
   height: 5px;
   position: absolute;
   top: 0;
@@ -233,7 +242,7 @@ body {
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 3px;
+  height: 2px;
   width: 0;
   transition: width 0s ease, background .5s ease;
 }
@@ -243,14 +252,14 @@ body {
   position: absolute;
   right: 0;
   bottom: 0;
-  height: 3px;
+  height: 2px;
   width: 0;
-  background: #5695cd;
+  background: #10AD9B;
   transition: width .5s ease;
 }
 .sliding-u-l-r-l:hover:before {
   width: 100%;
-  background: #5695cd;
+  background: #10AD9B;
   transition: width .5s ease;
 }
 .sliding-u-l-r-l:hover:after {
