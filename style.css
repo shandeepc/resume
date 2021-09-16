@@ -122,6 +122,7 @@ body {
 }
 .resume .info-item {
   margin-bottom: 0.2em;
+  margin-left: 42em;
   font-weight: 300;
 }
 .resume .info-item:last-child {
