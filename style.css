@@ -18,6 +18,11 @@
   size: A4;
 }
 
+@media print {
+  .printPageButton {
+    display: none;
+  }
+}
 
 body {
   -webkit-print-color-adjust: exact;
@@ -26,6 +31,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -94,7 +100,7 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 5px;
-  width: 350px;
+  width: 450px;
 }
 .resume .resume__section-title > i {
   margin-right: 0.63em;
